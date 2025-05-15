@@ -114,6 +114,7 @@ The pipeline uses multiple matching strategies in sequence:
 - Run tests using `tests/test_performance.py`
 
 ## Project Structure
+```
 .
 ├── config/ # Configuration files
 │ └── schema.sql # Database schema definitions
@@ -128,8 +129,7 @@ The pipeline uses multiple matching strategies in sequence:
 │ └── utils/ # Utility functions
 ├── tests/ # Test files
 └── main.py # Main application entry point
-
-
+```
 
 ## Performance Results
 ### Large Scale Test (200M Records)

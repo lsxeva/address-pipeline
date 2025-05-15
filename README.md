@@ -134,12 +134,15 @@ The pipeline uses multiple matching strategies in sequence:
 ## Performance Results
 ### Large Scale Test (200M Records)
 
+```
 Processing Transactions: 100%|█| 200M/200M [00:14<00:00] 13.7Mrecords/s
 Performance Summary:
 Total Runtime: 0.3 minutes
 Peak Memory: 0.1 GB
+```
 
 ### Real Data Test (321 Records)
+```
 Processing Transactions: 100%|█| 321/321 [00:03<00:00] 101records/s
 === Matching Summary ===
 match_type
@@ -149,6 +152,7 @@ no_match 29
 exact 24
 api_validated 7
 Total matches: 292/321 (91.0%)
+```
 === Confidence Score Distribution ===
 Scores 0.0-0.2: 29 (9.0%)
 Scores 0.2-0.4: 0 (0.0%)

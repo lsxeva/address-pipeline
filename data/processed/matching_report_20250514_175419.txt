@@ -1,0 +1,68 @@
+
+=== Matching Summary ===
+match_type
+fuzzy            124
+no_match          83
+metaphone         63
+api_validated     27
+exact             24
+
+Total matches: 238/321 (74.1%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 83 (25.9%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 20 (6.2%)
+Scores 0.8-1.0: 186 (57.9%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 83
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 83 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-manhattan-avenue-none-brooklyn-ny-11211-0
+Original Address: Manhattan Avenue
+Normalized Address: MANHATTAN AVE
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-jackson-street-unit-2-brooklyn-ny-11211
+Original Address: Jackson Street Unit 2
+Normalized Address: JACKSON ST 2
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-bayard-street-unit-3b-brooklyn-ny-11211-0
+Original Address: Bayard Street Unit 3B
+Normalized Address: BAYARD ST 3B
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-skillman-avenue-unit-2-brooklyn-ny-11211-0
+Original Address: Skillman Avenue Unit 2
+Normalized Address: SKILLMAN AVE 2
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-grand-street-none-brooklyn-ny-11211
+Original Address: Grand Street
+Normalized Address: GRAND ST
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_175419.csv
+=== Performance Metrics ===
+Total runtime: 9.76 seconds
+Total runtime: 0.16 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

@@ -1,0 +1,68 @@
+
+=== Matching Summary ===
+match_type
+fuzzy            124
+no_match          83
+metaphone         63
+api_validated     27
+exact             24
+
+Total matches: 238/321 (74.1%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 83 (25.9%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 20 (6.2%)
+Scores 0.8-1.0: 186 (57.9%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 83
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 83 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-skillman-avenue-unit-1a-brooklyn-ny-11211-0
+Original Address: Skillman Avenue Unit 1A
+Normalized Address: SKILLMAN AVE 1A
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-manhattan-avenue-unit-4r-brooklyn-ny-11211
+Original Address: Manhattan Avenue Unit 4R
+Normalized Address: MANHATTAN AVE 4R
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-grand-street-none-brooklyn-ny-11211-0
+Original Address: Grand Street
+Normalized Address: GRAND ST
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-6th-street-unit-3-brooklyn-ny-11211
+Original Address: North 6th Street Unit 3
+Normalized Address: N 6TH ST 3
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-grand-street-none-brooklyn-ny-11211
+Original Address: Grand Street
+Normalized Address: GRAND ST
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_174935.csv
+=== Performance Metrics ===
+Total runtime: 6.88 seconds
+Total runtime: 0.11 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

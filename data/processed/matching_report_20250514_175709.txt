@@ -1,0 +1,68 @@
+
+=== Matching Summary ===
+match_type
+metaphone        179
+no_match          83
+api_validated     27
+exact             24
+fuzzy              8
+
+Total matches: 238/321 (74.1%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 83 (25.9%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 20 (6.2%)
+Scores 0.8-1.0: 147 (45.8%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 83
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 83 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-manhattan-avenue-none-brooklyn-ny-11211-0
+Original Address: Manhattan Avenue
+Normalized Address: MANHATTAN AVE
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-south-8th-street-unit-1a-brooklyn-ny-11211
+Original Address: South 8th Street Unit 1A
+Normalized Address: S 8TH ST 1A
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-jackson-street-unit-3-brooklyn-ny-11211
+Original Address: Jackson Street Unit 3
+Normalized Address: JACKSON ST 3
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-6th-street-unit-2r-brooklyn-ny-11211
+Original Address: North 6th Street Unit 2R
+Normalized Address: N 6TH ST 2R
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-11th-street-unit-1l-brooklyn-ny-11211
+Original Address: North 11th Street Unit 1L
+Normalized Address: N 11TH ST 1L
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_175709.csv
+=== Performance Metrics ===
+Total runtime: 4.65 seconds
+Total runtime: 0.08 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

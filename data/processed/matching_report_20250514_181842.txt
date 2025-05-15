@@ -1,0 +1,67 @@
+
+=== Matching Summary ===
+match_type
+fuzzy        124
+no_match     110
+metaphone     63
+exact         24
+
+Total matches: 211/321 (65.7%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 110 (34.3%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 0 (0.0%)
+Scores 0.8-1.0: 179 (55.8%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 110
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 110 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-jackson-street-unit-ph-brooklyn-ny-11211
+Original Address: Jackson Street Unit PH
+Normalized Address: JACKSON ST PH
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-170-north-11th-street-unit-3a-brooklyn-ny-11211
+Original Address: 170 North 11th Street Unit 3A
+Normalized Address: 170 N 11TH ST 3A
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-devoe-street-unit-na-brooklyn-ny-11211
+Original Address: Devoe Street Unit NA
+Normalized Address: DEVOE ST NA
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-woodpoint-road-unit-3-brooklyn-ny-11211
+Original Address: Woodpoint Road Unit 3
+Normalized Address: WOODPOINT RD 3
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-maspeth-avenue-unit-2d-brooklyn-ny-11211
+Original Address: Maspeth Avenue Unit 2D
+Normalized Address: MASPETH AVE 2D
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_181842.csv
+=== Performance Metrics ===
+Total runtime: 5.53 seconds
+Total runtime: 0.09 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

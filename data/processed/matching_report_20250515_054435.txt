@@ -1,0 +1,68 @@
+
+=== Matching Summary ===
+match_type
+fuzzy            206
+metaphone         55
+no_match          29
+exact             24
+api_validated      7
+
+Total matches: 292/321 (91.0%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 29 (9.0%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 0 (0.0%)
+Scores 0.8-1.0: 260 (81.0%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 29
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 29 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 0
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-south-4th-street-unit-4a-brooklyn-ny-11211
+Original Address: South 4th Street Unit 4A
+Normalized Address: S 4TH ST 4A
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-south-5th-street-unit-c2-brooklyn-ny-11211
+Original Address: South 5th Street Unit C2
+Normalized Address: S 5TH ST C2
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-grand-street-none-brooklyn-ny-11211-0
+Original Address: Grand Street
+Normalized Address: GRAND ST
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-8th-street-none-brooklyn-ny-11211
+Original Address: North 8th Street
+Normalized Address: N 8TH ST
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-south-5th-street-unit-2-brooklyn-ny-11211-0
+Original Address: South 5th Street Unit 2
+Normalized Address: S 5TH ST 2
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250515_054435.csv
+=== Performance Metrics ===
+Total runtime: 6.36 seconds
+Total runtime: 0.11 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

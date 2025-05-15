@@ -1,0 +1,10 @@
+{
+  "timestamp": "20250514_171956",
+  "total_runtime_minutes": 0.1290028651555379,
+  "peak_memory_gb": 0.14190673828125,
+  "total_records_processed": 0,
+  "records_per_second": 0.0,
+  "total_api_calls": 270,
+  "total_api_cost": 2.7000000000000006,
+  "match_rate": 0
+}

@@ -1,0 +1,37 @@
+{
+  "total_runtime_seconds": 15.587313890457153,
+  "total_runtime_minutes": 0.25978856484095253,
+  "peak_memory_mb": 144.64453125,
+  "peak_memory_gb": 0.14125442504882812,
+  "total_api_calls": 28,
+  "total_api_cost": 0.28,
+  "api_calls_per_second": 1.7963325943633,
+  "total_records_processed": 0,
+  "records_per_second": 0.0,
+  "average_batch_size": 0,
+  "average_batch_time": 0,
+  "match_type_distribution": {},
+  "confidence_score_distribution": {},
+  "unmatched_reasons": {},
+  "match_rate": 0,
+  "batch_stats": [],
+  "processing_speeds": [],
+  "memory_usage_history": [
+    {
+      "timestamp": 1747304731.6585116,
+      "memory_mb": 144.61328125
+    },
+    {
+      "timestamp": 1747304732.0079014,
+      "memory_mb": 144.6328125
+    },
+    {
+      "timestamp": 1747304732.3622684,
+      "memory_mb": 144.6328125
+    },
+    {
+      "timestamp": 1747304732.515862,
+      "memory_mb": 144.64453125
+    }
+  ]
+}

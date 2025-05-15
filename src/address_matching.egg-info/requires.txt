@@ -1,0 +1,14 @@
+pandas
+psutil
+tqdm
+rapidfuzz
+python-Levenshtein
+metaphone
+soundex
+usaddress
+psycopg2-binary
+SQLAlchemy
+fastapi
+uvicorn
+pyyaml
+pytest

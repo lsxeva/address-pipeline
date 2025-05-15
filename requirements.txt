@@ -1,0 +1,15 @@
+pandas
+usaddress
+psycopg2-binary
+SQLAlchemy
+rapidfuzz
+python-Levenshtein
+metaphone
+soundex
+fastapi
+uvicorn
+pyyaml
+tqdm
+pytest
+psutil
+jellyfish

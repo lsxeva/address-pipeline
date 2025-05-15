@@ -1,0 +1,61 @@
+{
+  "total_runtime_seconds": 7.739726781845093,
+  "total_runtime_minutes": 0.1289954463640849,
+  "peak_memory_mb": 145.3125,
+  "peak_memory_gb": 0.14190673828125,
+  "total_api_calls": 270,
+  "total_api_cost": 2.7000000000000006,
+  "api_calls_per_second": 34.88495235172036,
+  "total_records_processed": 0,
+  "records_per_second": 0.0,
+  "average_batch_size": 0,
+  "average_batch_time": 0,
+  "match_type_distribution": {},
+  "confidence_score_distribution": {},
+  "unmatched_reasons": {},
+  "match_rate": 0,
+  "batch_stats": [],
+  "processing_speeds": [],
+  "memory_usage_history": [
+    {
+      "timestamp": 1747257594.8989074,
+      "memory_mb": 145.1015625
+    },
+    {
+      "timestamp": 1747257594.943449,
+      "memory_mb": 145.23046875
+    },
+    {
+      "timestamp": 1747257594.9626288,
+      "memory_mb": 145.24609375
+    },
+    {
+      "timestamp": 1747257595.2927012,
+      "memory_mb": 145.26953125
+    },
+    {
+      "timestamp": 1747257595.4325697,
+      "memory_mb": 145.26953125
+    },
+    {
+      "timestamp": 1747257595.693681,
+      "memory_mb": 145.2890625
+    },
+    {
+      "timestamp": 1747257595.7279217,
+      "memory_mb": 145.3046875
+    },
+    {
+      "timestamp": 1747257595.8918514,
+      "memory_mb": 145.3046875
+    },
+    {
+      "timestamp": 1747257595.916741,
+      "memory_mb": 145.3046875
+    },
+    {
+      "timestamp": 1747257596.0529194,
+      "memory_mb": 145.3125
+    }
+  ]
+}

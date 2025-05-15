@@ -1,0 +1,67 @@
+
+=== Matching Summary ===
+match_type
+fuzzy        124
+no_match     110
+metaphone     63
+exact         24
+
+Total matches: 211/321 (65.7%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 110 (34.3%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 0 (0.0%)
+Scores 0.8-1.0: 179 (55.8%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 110
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 110 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-havemeyer-street-unit-6a-brooklyn-ny-11211-0
+Original Address: Havemeyer Street Unit 6A
+Normalized Address: HAVEMEYER ST 6A
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-jackson-street-unit-2-brooklyn-ny-11211
+Original Address: Jackson Street Unit 2
+Normalized Address: JACKSON ST 2
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-skillman-avenue-unit-1-brooklyn-ny-11211
+Original Address: Skillman Avenue Unit 1
+Normalized Address: SKILLMAN AVE 1
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-maspeth-avenue-unit-2d-brooklyn-ny-11211-0
+Original Address: Maspeth Avenue Unit 2D
+Normalized Address: MASPETH AVE 2D
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-withers-street-unit-2-brooklyn-ny-11211
+Original Address: Withers Street Unit 2
+Normalized Address: WITHERS ST 2
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_181636.csv
+=== Performance Metrics ===
+Total runtime: 6.83 seconds
+Total runtime: 0.11 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00

@@ -1,0 +1,68 @@
+
+=== Matching Summary ===
+match_type
+metaphone        186
+no_match          83
+api_validated     27
+exact             24
+fuzzy              1
+
+Total matches: 238/321 (74.1%)
+=== Confidence Score Distribution ===
+Scores 0.0-0.2: 83 (25.9%)
+Scores 0.2-0.4: 0 (0.0%)
+Scores 0.4-0.6: 0 (0.0%)
+Scores 0.6-0.8: 20 (6.2%)
+Scores 0.8-1.0: 148 (46.1%)
+=== Unmatched Records Analysis ===
+Total unmatched records: 83
+
+Confidence Score Analysis:
+Scores 0.0-0.2: 83 records
+
+Detailed Unmatch Reasons:
+
+Address Format Analysis:
+Addresses with special characters: 1
+Very short addresses (<10 chars): 0
+Addresses without numbers: 0
+
+Sample Unmatched Records:
+
+Transaction ID: none-devoe-street-unit-2r-brooklyn-ny-11211-0
+Original Address: Devoe Street Unit 2R
+Normalized Address: DEVOE ST 2R
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-skillman-avenue-unit-1-brooklyn-ny-11211
+Original Address: Skillman Avenue Unit 1
+Normalized Address: SKILLMAN AVE 1
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-7th-street-unit-phb-brooklyn-ny-11211
+Original Address: North 7th Street Unit PHB
+Normalized Address: N 7TH ST PHB
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-north-11th-street-unit-1l-brooklyn-ny-11211
+Original Address: North 11th Street Unit 1L
+Normalized Address: N 11TH ST 1L
+Confidence Score: 0.00
+Match Type: no_match
+
+Transaction ID: none-bayard-street-unit-3b-brooklyn-ny-11211
+Original Address: Bayard Street Unit 3B
+Normalized Address: BAYARD ST 3B
+Confidence Score: 0.00
+Match Type: no_match
+
+Detailed unmatched records saved to: data/processed/unmatched_records_20250514_175335.csv
+=== Performance Metrics ===
+Total runtime: 8.30 seconds
+Total runtime: 0.14 minutes
+Peak memory usage: 0.00 GB
+Total API calls: 0
+Total API cost: $0.00
